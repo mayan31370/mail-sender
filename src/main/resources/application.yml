@@ -1,0 +1,12 @@
+spring:
+  mail:
+    host: smtp.exmail.qq.com
+    port: 465
+    password: Lijing31370
+    username: notice@chenyuzhifu.com
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            enable: true
