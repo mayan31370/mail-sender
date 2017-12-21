@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class Sender {
-
   private static final String from = "notice@chenyuzhifu.com";
   @Autowired
   private JavaMailSender mailSender;
