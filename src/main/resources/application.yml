@@ -2,7 +2,7 @@ spring:
   mail:
     host: smtp.exmail.qq.com
     port: 465
-    password: Lijing31370
+    password: z6zG9MjKHFQxApx7
     username: notice@chenyuzhifu.com
     properties:
       mail:
