@@ -4,5 +4,5 @@ ENV EMAIL_USERNAME example@example.com
 ENV EMAIL_PASSWORD 123456
 ENV EMAIL_HOST example.com
 ENV EMAIL_PORT 465
-ENTRYPOINT ["java","-jar","-Dserver.port=8080","/app.jar"]
+ENTRYPOINT ["java","-Xmn128m","-Xmx128m","-jar","-Dserver.port=8080","/app.jar"]
 ADD target/*.jar app.jar
